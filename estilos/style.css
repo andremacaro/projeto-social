@@ -44,4 +44,46 @@ iframe#tela{
     height: 471px;
     width: 268px;
 }
+
+section#redes-sociais img{
+    margin: 10px;
+    width: 50px;
+    border-radius: 360px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    position: absolute;
+    right: 10px;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.521);
+    transition: transform .7s, border .2s;
+    transform: translate(-7px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+
+img#twitter{
+    top: 190px;
+}
+
+img#facebook{
+    top: 120px;
+}
+
+img#github{
+    top: 400px;
+}
+
+img#yt{
+    top: 260px;
+}
+
+img#instagram{
+    top: 330px;
+}
+
+img#home{
+    top: 50px;
+}
+
     
